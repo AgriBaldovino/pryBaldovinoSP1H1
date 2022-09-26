@@ -67,6 +67,11 @@ namespace pryBaldovinoSP1H1
             }
 
             lectorCultivos.Close();
-        } 
+        }
+
+        private void lstLocalidad_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -130,6 +130,7 @@
             this.lstLocalidad.Name = "lstLocalidad";
             this.lstLocalidad.Size = new System.Drawing.Size(84, 21);
             this.lstLocalidad.TabIndex = 14;
+            this.lstLocalidad.SelectedIndexChanged += new System.EventHandler(this.lstLocalidad_SelectedIndexChanged);
             // 
             // lstCultivo
             // 
